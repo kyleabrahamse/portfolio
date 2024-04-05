@@ -10,13 +10,16 @@ const Footer = () => {
   return (
     <div>
       <nav className="bg-slate-800">
-        <ul className="flex justify-between w-2/3 mx-auto  p-2">
+        <ul className="flex justify-between w-11/12 sm:w-2/3 mx-auto  p-2">
           <li className="c-white-100 text-white content-center text-lg">
             <Link href="/">Kyle Abrahamse</Link>
           </li>
           <div className="flex justify-center p-1 gap-2 ">
             <div className="bg-slate-900 rounded hover:bg-green-600">
-              <Link href="https://www.linkedin.com/in/kyle-abrahamse/" target="_blank">
+              <Link
+                href="https://www.linkedin.com/in/kyle-abrahamse/"
+                target="_blank"
+              >
                 <FontAwesomeIcon
                   icon={faLinkedin}
                   className="h-10 text-teal-600 p-2 rounded hover:text-white"

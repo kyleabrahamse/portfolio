@@ -8,8 +8,8 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Hero = () => {
   return (
-    <div className="hero-container text-white content-center text-center p-40">
-      <div className="w-2/3 mx-auto">
+    <div className="hero-container text-white content-center text-center pt-14 pb-14 sm:p-40">
+      <div className="w-11/12 sm:w-2/3 mx-auto">
         <h1 className="text-6xl pb-5 ">Hi, Im Kyle</h1>
         <p className="text-2xl pb-10">
           I&apos;m a front-end developer with expertise in React and Typescript.
