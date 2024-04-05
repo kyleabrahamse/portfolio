@@ -11,7 +11,7 @@ const Hero = () => {
     <div className="hero-container text-white content-center text-center p-40">
       <div className="w-2/3 mx-auto">
         <h1 className="text-6xl pb-5 ">Hi, Im Kyle</h1>
-        <p className="text-xl pb-10">
+        <p className="text-2xl pb-10">
           I&apos;m a front-end developer with expertise in React and Typescript.
           I specialise in leveraging Next.js to optimise runtime performance and
           enhance user experiences.
@@ -27,7 +27,7 @@ const Hero = () => {
               />
             </Link>
           </div>
-          <div className="bg-indigo-950 rounded hover:bg-green-600">
+          <div className="bg-gray-950 rounded hover:bg-green-600">
             <Link href="https://github.com/kyleabrahamse" target="_blank">
               <FontAwesomeIcon icon={faGithub} className="icon h-12 p-2" />
             </Link>
