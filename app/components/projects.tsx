@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+
 import Image from "next/image";
 import Button from "./button";
 
@@ -22,7 +24,12 @@ const Projects = () => {
           </p>
           <div className="">
             <p className="text-2xl pt-5 pb-5">React | SCSS</p>
-            <Button text="launch" />
+            <Link
+              href="https://pilanesberg-leopard-project.netlify.app/"
+              target="_blank"
+            >
+              <Button text="launch" />
+            </Link>
           </div>
         </div>
         <div className="P-container flex flex-col">
@@ -42,7 +49,12 @@ const Projects = () => {
               {" "}
               Javascript | Firebase{" "}
             </p>
-            <Button text="launch" />
+            <Link
+              href="https://our-holiday-planner.netlify.app/"
+              target="_blank"
+            >
+              <Button text="launch" />
+            </Link>
           </div>
         </div>
         <div className="P-container flex flex-col">
@@ -60,7 +72,12 @@ const Projects = () => {
           </p>
           <div className="mt-auto">
             <p className="text-2xl pt-5 pb-5">Javascript | HTML | CSS</p>
-            <Button text="launch" />
+            <Link
+              href="https://our-recipe-planner.netlify.app/"
+              target="_blank"
+            >
+              <Button text="launch" />
+            </Link>
           </div>
         </div>
       </div>

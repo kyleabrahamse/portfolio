@@ -12,7 +12,7 @@ const Footer = () => {
       <nav className="bg-slate-800">
         <ul className="flex justify-between w-2/3 mx-auto  p-2">
           <li className="c-white-100 text-white content-center text-lg">
-          <Link href="/">Kyle Abrahamse</Link>
+            <Link href="/">Kyle Abrahamse</Link>
           </li>
           <div className="flex justify-center p-1 gap-2 ">
             <div className="bg-slate-900 rounded hover:bg-green-600">
@@ -33,7 +33,9 @@ const Footer = () => {
             </div>
           </div>
           <li className="content-center">
-            <Button text="Contact" />
+            <Link href="/Contact">
+              <Button text="Contact" />
+            </Link>
           </li>
         </ul>
       </nav>

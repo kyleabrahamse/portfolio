@@ -11,7 +11,9 @@ const Navbar = () => {
             <Link href="/">Kyle Abrahamse</Link>
           </li>
           <li>
+            <Link href="/Contact">
             <Button text="Contact" />
+            </Link>
           </li>
         </ul>
       </nav>
