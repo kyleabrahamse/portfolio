@@ -20,7 +20,10 @@ const Hero = () => {
         <i className="fa-brands fa-facebook"></i>
         <div className="flex justify-center p-10 gap-2 ">
           <div className="bg-blue-500 rounded hover:bg-green-600">
-            <Link href="https://github.com/kyleabrahamse" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/kyle-abrahamse/"
+              target="_blank"
+            >
               <FontAwesomeIcon
                 icon={faLinkedin}
                 className="h-12 text-white p-2 rounded"

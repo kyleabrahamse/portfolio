@@ -16,7 +16,7 @@ const Footer = () => {
           </li>
           <div className="flex justify-center p-1 gap-2 ">
             <div className="bg-slate-900 rounded hover:bg-green-600">
-              <Link href="https://www.linkedin.com/feed/" target="_blank">
+              <Link href="https://www.linkedin.com/in/kyle-abrahamse/" target="_blank">
                 <FontAwesomeIcon
                   icon={faLinkedin}
                   className="h-10 text-teal-600 p-2 rounded hover:text-white"
