@@ -1,17 +1,17 @@
 import React from "react";
+import Button from "../components/button";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
     <div>
-      <nav className="bg-teal-900">
-        <ul className="flex justify-between w-1/2 mx-auto  p-2">
+      <nav className="bg-slate-800">
+        <ul className="flex justify-between w-2/3 mx-auto  p-2">
           <li className="c-white-100 text-white content-center text-lg">
-            Kyle Abrahamse
+            <Link href="/">Kyle Abrahamse</Link>
           </li>
           <li>
-            <button className="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-              Contact
-            </button>
+            <Button text="Contact" />
           </li>
         </ul>
       </nav>

@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 .hero-container {
-  background-image: url("/images/hero-image.jpg");
+  background-image: url("/images/hero-image3.png");
   height: 95vh;
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
+.P-container {
+  width: 20%;
+}
+
