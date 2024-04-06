@@ -9,7 +9,20 @@
   background-size: cover;
 }
 
-.P-container {
-  width: 20%;
+@media (max-width: 640px) {
+  .hero-container {
+    height: auto;
+    background-color: black;
+    background-image: none;
+  }
 }
 
+.P-container {
+  width: 22%;
+}
+
+@media (max-width: 640px) {
+  .P-container {
+    width: 90%;
+  }
+}

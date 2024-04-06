@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className="w-2/3 flex mx-auto gap-12 pt-20 pb-20">
+    <div className="sm:w-2/3 w-11/12 flex flex-col sm:flex-row mx-auto gap-12 pt-20 pb-20">
       <h1 className="text-4xl">
         I excel as a front-end developer, proficient in React and TypeScript. My
         focus lies in harnessing the capabilities of Next.js to improve runtime
