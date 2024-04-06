@@ -8,13 +8,13 @@ const Projects = () => {
   return (
     <div className="pt-20 pb-20">
       <h1 className="text-center text-4xl">Projects</h1>
-      <div className="flex flex-col sm:flex-row gap-12 sm:gap-3 justify-center text-center pt-10  border-2 border-red-200">
-        <div className="P-container flex flex-col mx-auto sm:mx-auto">
+      <div className="flex flex-col sm:flex-row gap-12 sm:gap-3 justify-center text-center pt-10 ">
+        <div className="P-container flex flex-col mx-auto sm:mx-0 ">
           <Image
             src="/images/leopard.png"
             alt="Project"
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
             className="bg-cover h-80 w-96 object-cover mx-auto"
           />
           <h2 className="text-2xl pt-4">Pilanesberg Leopard Project</h2>
@@ -32,7 +32,7 @@ const Projects = () => {
             </Link>
           </div>
         </div>
-        <div className="P-container flex flex-col mx-auto sm:mx-0">
+        <div className="P-container flex flex-col mx-auto sm:mx-0 ">
           <Image
             src="/images/holiday.png"
             alt="project"
@@ -57,12 +57,12 @@ const Projects = () => {
             </Link>
           </div>
         </div>
-        <div className="P-container flex flex-col mx-auto sm:mx-0">
+        <div className="P-container flex flex-col mx-auto sm:mx-0 ">
           <Image
             src="/images/recipe.png"
             alt="project"
-            width="500"
-            height="500"
+            width={500}
+            height={500}
             className="bg-cover h-80 w-96 object-cover mx-auto"
           />
           <h2 className="text-2xl pt-4">Recipe Planner</h2>
