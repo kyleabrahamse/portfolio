@@ -16,10 +16,14 @@ const Footer = () => {
           </li>
           <div className="flex justify-center p-1 gap-2 ">
             <div className="bg-slate-900 rounded hover:bg-green-600">
+<<<<<<< HEAD
               <Link
                 href="https://www.linkedin.com/in/kyle-abrahamse/"
                 target="_blank"
               >
+=======
+              <Link href="https://www.linkedin.com/feed/" target="_blank">
+>>>>>>> parent of 6d9e375 (Fixed all links)
                 <FontAwesomeIcon
                   icon={faLinkedin}
                   className="h-10 text-teal-600 p-2 rounded hover:text-white"
