@@ -27,4 +27,14 @@
   }
 }
 
+@media (max-width: 500px) {
+  .icon {
+    display: none
+  }
+}
+
+
+.contact-height {
+  height: 88vh
+}
 

@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className="pt-20 pb-20">
       <h1 className="text-center text-4xl">Projects</h1>
-      <div className="flex flex-col sm:flex-row gap-12 sm:gap-3 justify-center text-center pt-10 ">
+      <div className="flex flex-col sm:flex-row gap-12 sm:gap-3 justify-center text-center pt-10">
         <div className="P-container flex flex-col mx-auto sm:mx-0 ">
           <Image
             src="/images/leopard.png"
