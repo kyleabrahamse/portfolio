@@ -27,9 +27,9 @@ const Hero = () => {
               />
             </Link>
           </div>
-          <div className="bg-gray-950 rounded hover:bg-green-600">
+          <div className="sm:bg-gray-950 bg-gray-800 rounded hover:bg-green-600">
             <Link href="https://github.com/kyleabrahamse" target="_blank">
-              <FontAwesomeIcon icon={faGithub} className="icon h-12 p-2" />
+              <FontAwesomeIcon icon={faGithub} className="h-12 p-2" />
             </Link>
           </div>
         </div>
