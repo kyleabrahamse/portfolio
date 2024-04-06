@@ -52,8 +52,8 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact-height flex gap-16 justify-center pt-44">
-      <div className="flex flex-col w-4/12">
+    <div className="contact flex flex-col sm:flex:row gap-16 justify-center pt-20 sm:pt-44">
+      <div className="flex flex-col px-4 sm:w-4/12">
         <h1 className="text-3xl pb-5">Contact Me</h1>
         <p className="text-lg pb-14">Feel free to drop me a message</p>
         <form ref={formRef} className="flex flex-col" onSubmit={handleSubmit}>
@@ -87,10 +87,10 @@ export default function Contact() {
           </button>
         </form>
       </div>
-      <div>
+      <div className="px-4 sm:p-0">
         <p className="pb-2">Phone: +44 7776 112 153</p>
         <p className="pb-4">Email: kyleabrahamse@outlook.com</p>
-        <div className="flex gap-2">
+        <div className="flex gap-2 pb-10">
           <div className="bg-blue-500 rounded hover:bg-green-600">
             <Link href="https://github.com/kyleabrahamse" target="_blank">
               <FontAwesomeIcon
@@ -101,7 +101,7 @@ export default function Contact() {
           </div>
           <div className="bg-gray-950 text-white rounded hover:bg-green-600">
             <Link href="https://github.com/kyleabrahamse" target="_blank">
-              <FontAwesomeIcon icon={faGithub} className="icon  h-8 p-2" />
+              <FontAwesomeIcon icon={faGithub} className="h-8 p-2" />
             </Link>
           </div>
         </div>
