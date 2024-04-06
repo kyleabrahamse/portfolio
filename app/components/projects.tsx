@@ -8,8 +8,8 @@ const Projects = () => {
   return (
     <div className="pt-20 pb-20">
       <h1 className="text-center text-4xl">Projects</h1>
-      <div className="flex flex-col sm:flex-row gap-12 justify-center text-center pt-10">
-        <div className="P-container flex flex-col mx-auto">
+      <div className="flex flex-col sm:flex-row  justify-center text-center pt-10 border-2 border-blue-500">
+        <div className="P-container flex flex-col mx-auto border-2 border-red-500 ">
           <Image
             src="/images/leopard.png"
             alt="Project"
@@ -18,7 +18,7 @@ const Projects = () => {
             className="bg-cover h-80 w-96 object-cover mx-auto"
           />
           <h2 className="text-2xl pt-4">Pilanesberg Leopard Project</h2>
-          <p className="text-lg pt-4"> mx-auto
+          <p className="text-lg pt-4">
             A website to help track and identify leopards fostering conservation
             efforts within the Pilanesberg Game Reserve in South Africa.
           </p>
