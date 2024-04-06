@@ -19,15 +19,15 @@ const Hero = () => {
         <h2 className="text-3xl">Javascript | React | Typescript | Next.JS</h2>
         <i className="fa-brands fa-facebook"></i>
         <div className="flex justify-center p-10 gap-2 ">
-          <div className="bg-blue-500 rounded hover:bg-green-600">
+          <div className="bg-blue-500 rounded hover:bg-green-600 transform transition-all hover:scale-110">
             <Link href="https://github.com/kyleabrahamse" target="_blank">
               <FontAwesomeIcon
                 icon={faLinkedin}
-                className="h-12 text-white p-2 rounded"
+                className="h-12 text-white p-2 rounded "
               />
             </Link>
           </div>
-          <div className="sm:bg-gray-950 bg-gray-800 rounded hover:bg-green-600">
+          <div className="sm:bg-gray-950 bg-gray-800 rounded hover:bg-green-600 transform transition-all hover:scale-110">
             <Link href="https://github.com/kyleabrahamse" target="_blank">
               <FontAwesomeIcon icon={faGithub} className="h-12 p-2" />
             </Link>
