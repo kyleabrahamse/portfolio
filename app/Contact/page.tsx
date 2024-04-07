@@ -52,7 +52,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact-height flex flex-col sm:flex-row gap-16 justify-center pt-20 sm:pt-44">
+    <div className="flex flex-col sm:flex-row gap-16 justify-center pt-20 sm:pt-44 sm:mb-56">
       <div className="flex flex-col px-4 sm:w-4/12">
         <h1 className="text-3xl pb-5">Contact Me</h1>
         <p className="text-lg pb-14">Feel free to drop me a message</p>
